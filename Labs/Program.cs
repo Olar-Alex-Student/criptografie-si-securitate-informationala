@@ -12,6 +12,7 @@ namespace Labs
     {
         static public Lab1 Lab1 = new Lab1();
         static public Lab2 Lab2 = new Lab2();
+        static public Lab3 Lab3 = new Lab3();
         static void Main(string[] args)
         {
             Lab1.Ex1();
@@ -36,7 +37,7 @@ namespace Labs
 
             Console.WriteLine("-----");
 
-
+            Lab3.Ex1();
 
             Console.ReadLine();
         }
