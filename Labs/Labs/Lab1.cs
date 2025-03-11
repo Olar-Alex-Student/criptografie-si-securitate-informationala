@@ -11,6 +11,7 @@ namespace Labs.Labs
     public class Lab1
     {
         public Cezar Cezar = new Cezar();
+        public Vigenere Vigenere = new Vigenere();
 
         public void Ex1()
         {
@@ -42,6 +43,34 @@ namespace Labs.Labs
 
                 Console.WriteLine(decriptCezar.ToString() + " i: " + i);
             }
+        }
+
+        public void Ex6()
+        {
+            var criptVigenere = Vigenere.VegenereCript("CRIPTOGRAFIE", "TEST");
+            
+            Console.WriteLine(criptVigenere.ToString());
+        }
+
+        public void Ex7()
+        {
+            var criptVigenere = Vigenere.VegenereCript("THE ART OF PROGRAMMING", "PYTHON");
+
+            Console.WriteLine(criptVigenere.ToString());
+        }
+
+        public void Ex8()
+        {
+            var descriptVigenere = Vigenere.VegenereDecript("PCWKPOVVIEMFPSOWROVABWTDI", "PASSWORD");
+
+            Console.WriteLine(descriptVigenere.ToString());
+        }
+        
+        public void Ex9()
+        {
+            var descriptVigenere = Vigenere.VegenereDecript("WRKADIXNBKUNJBZSMTMBVGXA", "ENIGMA");
+
+            Console.WriteLine(descriptVigenere.ToString());
         }
     }
 }

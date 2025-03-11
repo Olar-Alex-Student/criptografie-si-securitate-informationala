@@ -17,6 +17,10 @@ namespace Labs
             Lab1.Ex2();
             Lab1.Ex3();
             Lab1.Ex4();
+            Lab1.Ex6();
+            Lab1.Ex7();
+            Lab1.Ex8();
+            Lab1.Ex9();
             Console.ReadLine();
         }
     }
