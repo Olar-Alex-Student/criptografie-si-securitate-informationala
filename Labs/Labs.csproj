@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algoritmi\Breviar.cs" />
     <Compile Include="Algoritmi\Cezar.cs" />
     <Compile Include="Algoritmi\Playfair.cs" />
     <Compile Include="Algoritmi\Vigenere.cs" />

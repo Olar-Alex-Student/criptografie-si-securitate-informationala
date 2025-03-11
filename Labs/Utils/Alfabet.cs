@@ -8,8 +8,14 @@ namespace Labs.Utils
 {
     public class Alfabet
     {
-        public List<string> Litere = Enumerable.Range('A', 26)
-                                          .Select(c => ((char)c).ToString())
-                                          .ToList();
+        public List<string> Litere = new List<string>();
+
+        public Alfabet()
+        {
+            for(var i = 'A'; i <= 'Z'; i++)
+            {
+                Litere.Add(i.ToString());
+            }
+        }
     }
 }
